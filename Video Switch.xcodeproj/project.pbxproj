@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3B9CF6150AD6770076CC12 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3B9CF5150AD6770076CC12 /* UIKit.framework */; };
+		CE3B9CF8150AD6770076CC12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3B9CF7150AD6770076CC12 /* Foundation.framework */; };
+		CE3B9CFA150AD6770076CC12 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3B9CF9150AD6770076CC12 /* CoreGraphics.framework */; };
+		CE3B9D00150AD6770076CC12 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE3B9CFE150AD6770076CC12 /* InfoPlist.strings */; };
+		CE3B9D02150AD6770076CC12 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B9D01150AD6770076CC12 /* main.m */; };
+		CE3B9D06150AD6780076CC12 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B9D05150AD6780076CC12 /* AppDelegate.m */; };
+		CE3B9D09150AD6780076CC12 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3B9D07150AD6780076CC12 /* MainStoryboard.storyboard */; };
+		CE3B9D0C150AD6780076CC12 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3B9D0B150AD6780076CC12 /* ViewController.m */; };
+		CE3B9D13150AD7130076CC12 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3B9D12150AD7130076CC12 /* MediaPlayer.framework */; };
+		CE3B9D18150AE1F60076CC12 /* Herman Cain.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CE3B9D15150AE1F60076CC12 /* Herman Cain.mp4 */; };
+		CE3B9D19150AE1F60076CC12 /* Backin Up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CE3B9D16150AE1F60076CC12 /* Backin Up.mp4 */; };
+		CE3B9D1A150AE1F60076CC12 /* Ultimate Dog Tease.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CE3B9D17150AE1F60076CC12 /* Ultimate Dog Tease.mp4 */; };
+		CE621221150AF48B00846A3D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE621220150AF48B00846A3D /* CoreMedia.framework */; };
+		CE621224150AF49800846A3D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE621223150AF49800846A3D /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE3B9CF1150AD6770076CC12 /* Video Switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Switch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3B9CF5150AD6770076CC12 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE3B9CF7150AD6770076CC12 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE3B9CF9150AD6770076CC12 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE3B9CFD150AD6770076CC12 /* Video Switch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Video Switch-Info.plist"; sourceTree = "<group>"; };
+		CE3B9CFF150AD6770076CC12 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE3B9D01150AD6770076CC12 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE3B9D03150AD6780076CC12 /* Video Switch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Video Switch-Prefix.pch"; sourceTree = "<group>"; };
+		CE3B9D04150AD6780076CC12 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE3B9D05150AD6780076CC12 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE3B9D08150AD6780076CC12 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		CE3B9D0A150AD6780076CC12 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE3B9D0B150AD6780076CC12 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE3B9D12150AD7130076CC12 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		CE3B9D15150AE1F60076CC12 /* Herman Cain.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Herman Cain.mp4"; sourceTree = "<group>"; };
+		CE3B9D16150AE1F60076CC12 /* Backin Up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Backin Up.mp4"; sourceTree = "<group>"; };
+		CE3B9D17150AE1F60076CC12 /* Ultimate Dog Tease.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ultimate Dog Tease.mp4"; sourceTree = "<group>"; };
+		CE621220150AF48B00846A3D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CE621223150AF49800846A3D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3B9CEE150AD6770076CC12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE621224150AF49800846A3D /* AVFoundation.framework in Frameworks */,
+				CE621221150AF48B00846A3D /* CoreMedia.framework in Frameworks */,
+				CE3B9D13150AD7130076CC12 /* MediaPlayer.framework in Frameworks */,
+				CE3B9CF6150AD6770076CC12 /* UIKit.framework in Frameworks */,
+				CE3B9CF8150AD6770076CC12 /* Foundation.framework in Frameworks */,
+				CE3B9CFA150AD6770076CC12 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3B9CE6150AD6760076CC12 = {
+			isa = PBXGroup;
+			children = (
+				CE3B9D14150AE1F60076CC12 /* Videos */,
+				CE3B9CFB150AD6770076CC12 /* Video Switch */,
+				CE3B9CF4150AD6770076CC12 /* Frameworks */,
+				CE3B9CF2150AD6770076CC12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3B9CF2150AD6770076CC12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B9CF1150AD6770076CC12 /* Video Switch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3B9CF4150AD6770076CC12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE621220150AF48B00846A3D /* CoreMedia.framework */,
+				CE621223150AF49800846A3D /* AVFoundation.framework */,
+				CE3B9D12150AD7130076CC12 /* MediaPlayer.framework */,
+				CE3B9CF5150AD6770076CC12 /* UIKit.framework */,
+				CE3B9CF7150AD6770076CC12 /* Foundation.framework */,
+				CE3B9CF9150AD6770076CC12 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3B9CFB150AD6770076CC12 /* Video Switch */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B9D04150AD6780076CC12 /* AppDelegate.h */,
+				CE3B9D05150AD6780076CC12 /* AppDelegate.m */,
+				CE3B9D07150AD6780076CC12 /* MainStoryboard.storyboard */,
+				CE3B9D0A150AD6780076CC12 /* ViewController.h */,
+				CE3B9D0B150AD6780076CC12 /* ViewController.m */,
+				CE3B9CFC150AD6770076CC12 /* Supporting Files */,
+			);
+			path = "Video Switch";
+			sourceTree = "<group>";
+		};
+		CE3B9CFC150AD6770076CC12 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B9CFD150AD6770076CC12 /* Video Switch-Info.plist */,
+				CE3B9CFE150AD6770076CC12 /* InfoPlist.strings */,
+				CE3B9D01150AD6770076CC12 /* main.m */,
+				CE3B9D03150AD6780076CC12 /* Video Switch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE3B9D14150AE1F60076CC12 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				CE3B9D15150AE1F60076CC12 /* Herman Cain.mp4 */,
+				CE3B9D16150AE1F60076CC12 /* Backin Up.mp4 */,
+				CE3B9D17150AE1F60076CC12 /* Ultimate Dog Tease.mp4 */,
+			);
+			name = Videos;
+			path = "Video Switch/Videos";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3B9CF0150AD6770076CC12 /* Video Switch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3B9D0F150AD6780076CC12 /* Build configuration list for PBXNativeTarget "Video Switch" */;
+			buildPhases = (
+				CE3B9CED150AD6770076CC12 /* Sources */,
+				CE3B9CEE150AD6770076CC12 /* Frameworks */,
+				CE3B9CEF150AD6770076CC12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Video Switch";
+			productName = "Video Switch";
+			productReference = CE3B9CF1150AD6770076CC12 /* Video Switch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3B9CE8150AD6760076CC12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = CE3B9CEB150AD6760076CC12 /* Build configuration list for PBXProject "Video Switch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3B9CE6150AD6760076CC12;
+			productRefGroup = CE3B9CF2150AD6770076CC12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3B9CF0150AD6770076CC12 /* Video Switch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3B9CEF150AD6770076CC12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3B9D00150AD6770076CC12 /* InfoPlist.strings in Resources */,
+				CE3B9D09150AD6780076CC12 /* MainStoryboard.storyboard in Resources */,
+				CE3B9D18150AE1F60076CC12 /* Herman Cain.mp4 in Resources */,
+				CE3B9D19150AE1F60076CC12 /* Backin Up.mp4 in Resources */,
+				CE3B9D1A150AE1F60076CC12 /* Ultimate Dog Tease.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3B9CED150AD6770076CC12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3B9D02150AD6770076CC12 /* main.m in Sources */,
+				CE3B9D06150AD6780076CC12 /* AppDelegate.m in Sources */,
+				CE3B9D0C150AD6780076CC12 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE3B9CFE150AD6770076CC12 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3B9CFF150AD6770076CC12 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE3B9D07150AD6780076CC12 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3B9D08150AD6780076CC12 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3B9D0D150AD6780076CC12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE3B9D0E150AD6780076CC12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3B9D10150AD6780076CC12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Video Switch/Video Switch-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Video Switch/Video Switch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE3B9D11150AD6780076CC12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Video Switch/Video Switch-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "Video Switch/Video Switch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3B9CEB150AD6760076CC12 /* Build configuration list for PBXProject "Video Switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3B9D0D150AD6780076CC12 /* Debug */,
+				CE3B9D0E150AD6780076CC12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3B9D0F150AD6780076CC12 /* Build configuration list for PBXNativeTarget "Video Switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3B9D10150AD6780076CC12 /* Debug */,
+				CE3B9D11150AD6780076CC12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3B9CE8150AD6760076CC12 /* Project object */;
+}
